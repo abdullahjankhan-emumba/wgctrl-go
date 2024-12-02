@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wginternal"
+	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
 )
 
 // Expose an identical interface to the underlying packages.

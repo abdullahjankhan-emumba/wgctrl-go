@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
 )
 
 // ErrReadOnly indicates that the driver backing a device is read-only. It is

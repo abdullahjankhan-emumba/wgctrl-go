@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/abdullahjankhan-emumba/wireguard-go/ipc/namedpipe"
 	"golang.org/x/sys/windows"
-	"golang.zx2c4.com/wireguard/ipc/namedpipe"
 )
 
 // Expected prefixes when dealing with named pipes.
