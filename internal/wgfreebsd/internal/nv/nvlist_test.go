@@ -8,7 +8,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgfreebsd/internal/nv"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgfreebsd/internal/nv"
 )
 
 func TestMarshaling(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 	"github.com/google/go-cmp/cmp"
 	"github.com/mdlayher/genetlink"
 	"github.com/mdlayher/genetlink/genltest"

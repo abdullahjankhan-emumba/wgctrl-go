@@ -10,8 +10,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgtest"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgtest"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 	"github.com/google/go-cmp/cmp"
 	"github.com/mdlayher/genetlink"
 	"github.com/mdlayher/genetlink/genltest"

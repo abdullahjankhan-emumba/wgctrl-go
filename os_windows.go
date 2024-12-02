@@ -4,9 +4,9 @@
 package wgctrl
 
 import (
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wginternal"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wguser"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgwindows"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wginternal"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wguser"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgwindows"
 )
 
 // newClients configures wginternal.Clients for Windows systems.

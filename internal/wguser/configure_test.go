@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgtest"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgtest"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 )
 
 // Example string source (with some slight modifications to use all fields):

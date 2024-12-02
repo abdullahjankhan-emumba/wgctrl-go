@@ -1,4 +1,4 @@
-module github.com/abdullahjankhan-emumba/wireguard/wgctrl
+module github.com/abdullahjankhan-emumba/wgctrl-go
 
 go 1.20
 

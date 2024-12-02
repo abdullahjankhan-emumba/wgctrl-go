@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wginternal"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wginternal"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -11,9 +11,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgopenbsd/internal/wgh"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wgtest"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgopenbsd/internal/wgh"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wgtest"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sys/unix"
 )

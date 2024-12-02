@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 )
 
 // ErrReadOnly indicates that the driver backing a device is read-only. It is

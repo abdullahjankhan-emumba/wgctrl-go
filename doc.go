@@ -6,4 +6,4 @@
 // the configuration of existing WireGuard devices. Operations such as creating
 // WireGuard devices, or applying IP addresses to those devices, are out of scope
 // for this package.
-package wgctrl // import "github.com/abdullahjankhan-emumba/wireguard/wgctrl"
+package wgctrl // import "github.com/abdullahjankhan-emumba/wgctrl-go"

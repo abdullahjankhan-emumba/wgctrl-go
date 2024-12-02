@@ -9,8 +9,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/internal/wginternal"
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/internal/wginternal"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 	"github.com/mdlayher/genetlink"
 	"github.com/mdlayher/netlink"
 	"github.com/mdlayher/netlink/nlenc"
@@ -165,7 +165,7 @@ func (c *Client) execute(command uint8, flags netlink.HeaderFlags, attrb []byte)
 	oerr, ok := err.(*netlink.OpError)
 	if !ok {
 		// Expect all errors to conform to netlink.OpError.
-		return nil, fmt.Errorf("wglinux: netlink operation returned non-netlink error (please file a bug: https://github.com/abdullahjankhan-emumba/wireguard/wgctrl): %v", err)
+		return nil, fmt.Errorf("wglinux: netlink operation returned non-netlink error (please file a bug: https://github.com/abdullahjankhan-emumba/wgctrl-go): %v", err)
 	}
 
 	switch oerr.Err {

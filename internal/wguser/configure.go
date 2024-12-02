@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/abdullahjankhan-emumba/wireguard/wgctrl/wgtypes"
+	"github.com/abdullahjankhan-emumba/wgctrl-go/wgtypes"
 )
 
 // configureDevice configures a device specified by its path.
