@@ -3,7 +3,7 @@ module github.com/abdullahjankhan-emumba/wgctrl-go
 go 1.20
 
 require (
-	github.com/abdullahjankhan-emumba/wireguard-go v0.0.0-20241202094242-21d891047bd7
+	github.com/abdullahjankhan-emumba/wireguard-go v0.0.0-20241203100305-d133df37ed28
 	github.com/google/go-cmp v0.5.9
 	github.com/mdlayher/genetlink v1.3.2
 	github.com/mdlayher/netlink v1.7.2
